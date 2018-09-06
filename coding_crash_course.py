@@ -6,6 +6,13 @@ def main():
         print('Couldn\'t open input file(s); ending program.')
         return
 
+    class_data = []
+    TA_data = []
+    for line in class_file:
+        class_data.append(line)
+    for line in TA_file:
+        TA_data.append(line)
+
 
 if __name__ == '__main__':
     main()
